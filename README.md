@@ -5,9 +5,7 @@
 #### create_crc_data.py
 ##### 1 create specify length random test vector(file)
 ##### 2 calculate the crc32
-##### 3 save the crc file to file
-##### the data will be reserved in the data/ folder with the .dat suffix
-
+##### 3 save the crc result to file in the data/ folder with the .dat suffix
 ##### Usage: python create_crc_data.py <data_length>
 ##### data_length could be byte//Kilobyte/Megabyte
 ##### example:
