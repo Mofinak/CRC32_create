@@ -28,9 +28,10 @@ if __name__ == '__main__':
 	checksum=getCrc32(input_file)
 	
 	output_file = input_file.replace('.jpg','_crc32.dat')
-	print (output_file)
-
+	
 	putCrc32(output_file, hex(checksum))
+
+	print ("Reserve the crc data in %s" % output_file)
 
 	print ("Crc:",(hex(checksum)))
 
