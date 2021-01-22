@@ -24,7 +24,6 @@ def generate_random_str(length):
     print(type(base_str))
     print ("base_str %s" % len(base_str))
     n=len(base_str)-1
-    # n=61
 
     for i in range(int(length)):
         random_str+=base_str[random.randint(0,n)]  
