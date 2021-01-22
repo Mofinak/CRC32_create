@@ -1,8 +1,6 @@
 # CRC32_create
 
-#### This project is to create different length test vector for xilinx xrt mutiprocess test.
-
-
+#### This project is to create vector file for xilinx xrt mutiprocess test.
 
 #### create_crc_data.py
 ##### 1 create specify length random test vector(file)
